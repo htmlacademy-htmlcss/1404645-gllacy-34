@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Sergey Graschenko](https://up.htmlacademy.ru/htmlcss/34/user/1404645).
-* Наставник: `Неизвестно`.
+* Наставник: [Саша Сударев](https://htmlacademy.ru/profile/id1152185).
 
 ---
 
