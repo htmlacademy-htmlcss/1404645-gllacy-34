@@ -30,3 +30,39 @@ body {
     color: #2D3440;
     background-color: #FEAFC3;
 }
+
+/* Хедер */
+
+.navigation-link {
+    line-height: 20px;
+    color: #2D3440;
+    background-color: #FEAFC3;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation-catalog-link {
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    background-color: #FCFCFC;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation-phone {
+    font-weight: 700;
+    line-height: 20px;
+    color: #2D3440;
+    background-color: #FEAFC3;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation-button {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    background: rgba(252, 252, 252, 0.3);
+}
