@@ -66,3 +66,27 @@ body {
     color: #2D3440;
     background: rgba(252, 252, 252, 0.3);
 }
+
+/* Главный раздел */
+
+/* Слайдер */
+
+.slider-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.slider-text {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.slider-link {
+    font-weight: 700;
+    color: #2D3440;
+    background-color: #FCFCFC;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
