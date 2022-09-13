@@ -99,7 +99,7 @@ body {
 
 .banners-offer {
     font-weight: 900;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 46px;
     text-align: center;
 }
@@ -132,4 +132,33 @@ body {
     color: #2D3440;
     text-align: center;
     text-decoration: none;
+}
+
+/* Самые популярные товары */
+
+.popular-products-offer {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.popular-product-item {
+    background-color: #FCFCFC;
+}
+
+.product-title {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.product-text {
+    color: #565C66;
+    text-align: center;
+}
+
+.product-price {
+    font-size: 20px;
+    line-height: 24px;
 }
