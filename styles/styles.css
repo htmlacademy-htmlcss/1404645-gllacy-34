@@ -162,3 +162,23 @@ body {
     font-size: 20px;
     line-height: 24px;
 }
+
+/* Наши особенности */
+
+.ours-features {
+    background-color: #FCFCFC;
+    background-image: url(../images/main/waffle.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.ours-features-title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.ours-features-text {
+    color: #565C66;
+}
