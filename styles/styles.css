@@ -31,7 +31,7 @@ body {
     background-color: #FEAFC3;
 }
 
-/* Хедер */
+/* Header */
 
 .navigation-link {
     line-height: 20px;
@@ -71,9 +71,9 @@ body {
     background: rgba(252, 252, 252, 0.3);
 }
 
-/* Главный раздел */
+/* Main */
 
-/* Слайдер */
+/* Slider */
 
 .slider-title {
     font-weight: 900;
@@ -95,7 +95,7 @@ body {
     text-decoration: none;
 }
 
-/* Баннеры */
+/* Banners */
 
 .banners-offer {
     font-weight: 900;
@@ -134,7 +134,7 @@ body {
     text-decoration: none;
 }
 
-/* Самые популярные товары */
+/* Popular products */
 
 .popular-products-offer {
     font-weight: 900;
@@ -163,7 +163,7 @@ body {
     line-height: 24px;
 }
 
-/* Наши особенности */
+/* Ours features */
 
 .ours-features {
     background-color: #FCFCFC;
@@ -181,4 +181,31 @@ body {
 
 .ours-features-text {
     color: #565C66;
+}
+
+/* Blog */
+
+.blog {
+    background-color: #FCFCFC;
+    background-image: url(../images/main/blog.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+
+.blog-text {
+    line-height: 20px;
+    color: #565C66;
+}
+
+.blog-link {
+    color: #2D3440;
+    background-color: #FCFCFC;
+    text-align: center;
+    text-decoration: none;
+}
+
+.blog-title {
+    font-size: 24px;
+    line-height: 30px;
 }
