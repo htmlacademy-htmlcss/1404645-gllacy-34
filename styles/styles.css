@@ -170,6 +170,7 @@ body {
     background-image: url(../images/main/waffle.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .ours-features-title {
@@ -190,6 +191,7 @@ body {
     background-image: url(../images/main/blog.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -208,4 +210,31 @@ body {
 .blog-title {
     font-size: 24px;
     line-height: 30px;
+}
+
+/* Subscribe */
+
+.subscribe {
+    color: #565C66;
+    background-color: #FFFFFF;
+    background-image: url(../images/main/subscribe.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.subscribe-field {
+    font-size: 16px;
+    line-height: 20px;
+    color: #B9B9B9;
+    background-color: #FFFFFF;
+}
+
+.subscribe-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FCFCFC;
+    background-color: #FF2F64;
+    text-align: center;
 }
