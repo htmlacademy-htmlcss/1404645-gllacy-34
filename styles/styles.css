@@ -41,6 +41,10 @@ body {
     text-decoration: none;
 }
 
+.navigation-catalog-list {
+    background-color: #FCFCFC;
+}
+
 .navigation-catalog-link {
     font-size: 14px;
     line-height: 20px;
@@ -87,6 +91,45 @@ body {
     color: #2D3440;
     background-color: #FCFCFC;
     line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Баннеры */
+
+.banners-offer {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.banners-item {
+    background-color: #FF7799;
+}
+
+.banner-one {
+    background-image: url(../images/main/banner-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.banner-two {
+    background-image: url(../images/main/banner-2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.banner-title {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.banner-link {
+    font-weight: 700;
+    background-color: #FCFCFC;
+    line-height: 20px;
+    color: #2D3440;
     text-align: center;
     text-decoration: none;
 }
