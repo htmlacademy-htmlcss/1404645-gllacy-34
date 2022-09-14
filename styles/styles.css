@@ -282,3 +282,31 @@ body {
     background-color: #FF2F64;
     text-align: center;
 }
+
+/* Contacts */
+
+.contacts {
+    color: #2D3440;
+    background-color: #FCFCFC;
+    background-image: url(../images/main/contacts.jpeg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contacts-address {
+    color: #2D3440;
+    background-color: #FCFCFC;
+    font-style: normal;
+}
+
+.contacts-text {
+    color: #565C66;
+}
+
+.contacts-address-place {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+}
