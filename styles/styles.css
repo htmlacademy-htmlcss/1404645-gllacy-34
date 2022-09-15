@@ -38,6 +38,12 @@ body {
     text-align: center;
 }
 
+.title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+}
+
 /* Header */
 
 .navigation-link {
@@ -83,9 +89,7 @@ body {
 /* Slider */
 
 .slider-title {
-    font-weight: 900;
     font-size: 36px;
-    line-height: 46px;
 }
 
 .slider-text {
@@ -102,9 +106,6 @@ body {
 /* Banners */
 
 .banners-offer {
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 46px;
     text-align: center;
 }
 
@@ -127,6 +128,7 @@ body {
 }
 
 .banner-title {
+    font-weight: 700;
     font-size: 24px;
     line-height: 30px;
 }
@@ -140,9 +142,6 @@ body {
 /* Popular products */
 
 .popular-products-offer {
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 46px;
     text-align: center;
 }
 
@@ -151,6 +150,7 @@ body {
 }
 
 .product-title {
+    font-weight: 700;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
@@ -177,9 +177,6 @@ body {
 }
 
 .ours-features-title {
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 46px;
     text-align: center;
 }
 
@@ -211,6 +208,7 @@ body {
 }
 
 .blog-title {
+    font-weight: 700;
     font-size: 24px;
     line-height: 30px;
 }
@@ -218,12 +216,15 @@ body {
 /* Subscribe */
 
 .subscribe {
-    color: #565C66;
     background-color: #FFFFFF;
     background-image: url(../images/main/subscribe.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.subscribe-text {
+    color: #565C66;
 }
 
 .subscribe-field {
@@ -241,7 +242,6 @@ body {
 /* Delivery */
 
 .delivery {
-    color: #565C66;
     background-color: #FCFCFC;
     background-image: url(../images/main/delivery.jpeg);
     background-size: 100% auto;
@@ -249,22 +249,18 @@ body {
     background-position: center;
 }
 
-.delivery-title {
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 46px;
-    color: #2D3440;
+.delivery-form {
+    background-color: #FCFCFC;
 }
 
-.delivery-form {
+.delivery-text {
     color: #565C66;
-    background-color: #FCFCFC;
 }
 
 .delivery-form-title {
     font-weight: 700;
+    font-size: 16px;
     line-height: 20px;
-    outline-color: #2D3440;
 }
 
 .delivery-form-field {
