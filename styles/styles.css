@@ -234,12 +234,8 @@ body {
 }
 
 .subscribe-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
     color: #FCFCFC;
     background-color: #FF2F64;
-    text-align: center;
 }
 
 /* Delivery */
@@ -278,12 +274,8 @@ body {
 }
 
 .delivery-form-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
     color: #FCFCFC;
     background-color: #FF2F64;
-    text-align: center;
 }
 
 /* Contacts */
@@ -327,12 +319,8 @@ body {
 }
 
 .contacts-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
     color: #FCFCFC;
     background-color: #FF2F64;
-    text-align: center;
 }
 
 /* Footer */
