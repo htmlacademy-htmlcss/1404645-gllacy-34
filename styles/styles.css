@@ -31,6 +31,13 @@ body {
     background-color: #FEAFC3;
 }
 
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
 /* Header */
 
 .navigation-link {
@@ -65,8 +72,8 @@ body {
 
 .navigation-button {
     font-family: "Inter", sans-serif;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
     color: #2D3440;
     background: rgba(252, 252, 252, 0.3);
 }
@@ -87,11 +94,8 @@ body {
 }
 
 .slider-link {
-    font-weight: 700;
     color: #2D3440;
     background-color: #FCFCFC;
-    line-height: 20px;
-    text-align: center;
     text-decoration: none;
 }
 
@@ -110,12 +114,14 @@ body {
 
 .banner-one {
     background-image: url(../images/main/banner-1.png);
+    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: right;
 }
 
 .banner-two {
     background-image: url(../images/main/banner-2.png);
+    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -126,11 +132,8 @@ body {
 }
 
 .banner-link {
-    font-weight: 700;
     background-color: #FCFCFC;
-    line-height: 20px;
     color: #2D3440;
-    text-align: center;
     text-decoration: none;
 }
 
@@ -329,5 +332,37 @@ body {
     line-height: 20px;
     color: #FCFCFC;
     background-color: #FF2F64;
+    text-align: center;
+}
+
+/* Footer */
+
+/* Footer menu */
+
+.footer-menu-link {
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    background-color: #FEAFC3;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-menu-item:first-child {
+    font-weight: 700;
+}
+
+/* footer html academy */
+
+.footer-who-did-it {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.footer-htmlacademy-link {
+    font-size: 12px;
+    line-height: 16px;
+    color: #2D3440;
+    background-color: #FEAFC3;
     text-align: center;
 }
