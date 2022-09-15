@@ -244,7 +244,7 @@ body {
 .delivery {
     color: #565C66;
     background-color: #FCFCFC;
-    background-image: url(../images/main/delivery.png);
+    background-image: url(../images/main/delivery.jpeg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -286,7 +286,6 @@ body {
 /* Contacts */
 
 .contacts {
-    color: #2D3440;
     background-color: #FCFCFC;
     background-image: url(../images/main/contacts.jpeg);
     background-size: 100% auto;
@@ -295,7 +294,6 @@ body {
 }
 
 .contacts-address {
-    color: #2D3440;
     background-color: #FCFCFC;
     font-style: normal;
 }
@@ -308,5 +306,28 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
+}
 
+.contacts-address-phone {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3440;
+    background-color: #FCFCFC;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contacts-time {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contacts-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FCFCFC;
+    background-color: #FF2F64;
+    text-align: center;
 }
