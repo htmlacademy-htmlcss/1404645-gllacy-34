@@ -1,0 +1,355 @@
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/inter-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/inter-700.woff2") format("woff2");
+    display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/inter-900.woff2") format("woff2");
+    display: swap;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2D3440;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+}
+
+.body-pink {
+    background-color: #FEAFC3;
+}
+
+/* Header */
+
+.navigation-link {
+    line-height: 20px;
+    color: #2D3440;
+    background-color: #FEAFC3;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation-catalog-list {
+    background-color: #FCFCFC;
+}
+
+.navigation-catalog-link {
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    background-color: #FCFCFC;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation-phone {
+    font-weight: 700;
+    line-height: 20px;
+    color: #2D3440;
+    background-color: #FEAFC3;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation-button {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2D3440;
+    background: rgba(252, 252, 252, 0.3);
+}
+
+/* Main */
+
+/* Slider */
+
+.slider-title {
+    font-size: 36px;
+}
+
+.slider-text {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.slider-link {
+    color: #2D3440;
+    background-color: #FCFCFC;
+    text-decoration: none;
+}
+
+/* Banners */
+
+.banners-title {
+    text-align: center;
+}
+
+.banners-item {
+    background-color: #FF7799;
+}
+
+.banner-one {
+    background-image: url(../images/main/banner-1.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.banner-two {
+    background-image: url(../images/main/banner-2.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.banner-link {
+    background-color: #FCFCFC;
+    color: #2D3440;
+    text-decoration: none;
+}
+
+/* Popular products */
+
+.popular-products-title {
+    text-align: center;
+}
+
+.popular-product-item {
+    background-color: #FCFCFC;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.product-text {
+    color: #565C66;
+    text-align: center;
+}
+
+.product-price {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* Ours features */
+
+.ours-features {
+    background-color: #FCFCFC;
+    background-image: url(../images/main/waffle.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ours-features-title {
+    text-align: center;
+}
+
+.ours-features-text {
+    color: #565C66;
+}
+
+/* Blog */
+
+.blog {
+    background-color: #FCFCFC;
+    background-image: url(../images/main/blog.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blog-text {
+    line-height: 20px;
+    color: #565C66;
+}
+
+.blog-link {
+    color: #2D3440;
+    background-color: #FCFCFC;
+    text-align: center;
+    text-decoration: none;
+}
+
+.blog-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+/* Subscribe */
+
+.subscribe {
+    background-color: #FFFFFF;
+    background-image: url(../images/main/subscribe.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.subscribe-text {
+    color: #565C66;
+}
+
+.subscribe-field {
+    font-size: 16px;
+    line-height: 20px;
+    color: #B9B9B9;
+    background-color: #FFFFFF;
+}
+
+.subscribe-button {
+    color: #FCFCFC;
+    background-color: #FF2F64;
+}
+
+/* Delivery */
+
+.delivery {
+    background-color: #FCFCFC;
+    background-image: url(../images/main/delivery.jpeg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.delivery-form {
+    background-color: #FCFCFC;
+}
+
+.delivery-text {
+    color: #565C66;
+}
+
+.delivery-form-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.delivery-form-field {
+    font-size: 16px;
+    line-height: 20px;
+    color: #B9B9B9;
+}
+
+.delivery-form-button {
+    color: #FCFCFC;
+    background-color: #FF2F64;
+}
+
+/* Contacts */
+
+.contacts {
+    background-color: #FCFCFC;
+    background-image: url(../images/main/contacts.jpeg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contacts-address {
+    background-color: #FCFCFC;
+    font-style: normal;
+}
+
+.contacts-text {
+    color: #565C66;
+}
+
+.contacts-address-place {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contacts-address-phone {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3440;
+    background-color: #FCFCFC;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contacts-time {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contacts-button {
+    color: #FCFCFC;
+    background-color: #FF2F64;
+}
+
+/* Footer */
+
+/* Footer menu */
+
+.footer-menu-link {
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    background-color: #FEAFC3;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-menu-item:first-child {
+    font-weight: 700;
+}
+
+/* footer html academy */
+
+.footer-who-did-it {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.footer-htmlacademy-link {
+    font-size: 12px;
+    line-height: 16px;
+    color: #2D3440;
+    background-color: #FEAFC3;
+    text-align: center;
+}
