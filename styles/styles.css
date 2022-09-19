@@ -66,6 +66,11 @@ body {
     margin: 0 auto;
 }
 
+.navigation-logo {
+    width: 137px;
+    margin-right: 16px;
+}
+
 .navigation-list {
     margin: 0;
     padding: 0;
@@ -121,10 +126,29 @@ body {
     flex-grow: 1;
 }
 
+.page-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
 /* Slider */
 
 .slider-title {
     font-size: 36px;
+}
+
+.slider-list {
+    margin: 0;
+    padding: 0;
+}
+
+.slider-item {
+    display: flex;
+}
+
+.slider-description {
+    width: 470px;
+    margin-left: 70px;
 }
 
 .slider-text {
