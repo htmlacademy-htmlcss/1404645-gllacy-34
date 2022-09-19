@@ -60,6 +60,23 @@ body {
 
 /* Header */
 
+.navigation {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+}
+
+.navigation-user {
+    width: 440px;
+    margin-left: auto;
+}
+
 .navigation-link {
     line-height: 20px;
     color: #2D3440;
