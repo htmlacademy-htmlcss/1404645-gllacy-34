@@ -168,7 +168,15 @@ body {
     text-align: center;
 }
 
+.banners-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
 .banners-item {
+    width: 570px;
     background-color: #FF7799;
 }
 
