@@ -22,6 +22,10 @@
     display: swap;
 }
 
+html {
+	height: 100%;
+}
+
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -42,6 +46,12 @@ body {
     font-weight: 900;
     font-size: 32px;
     line-height: 46px;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 .body-pink {
@@ -89,6 +99,10 @@ body {
 }
 
 /* Main */
+
+.main-container {
+    flex-grow: 1;
+}
 
 /* Slider */
 
