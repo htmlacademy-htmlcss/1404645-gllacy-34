@@ -212,8 +212,21 @@ body {
     text-align: center;
 }
 
+.popular-products-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
 .popular-product-item {
     background-color: #FCFCFC;
+    width: 270px;
+}
+
+.product-image {
+    display: block;
+    margin: 0 auto;
 }
 
 .product-title {
@@ -241,6 +254,16 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.ours-features-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.ours-features-item {
+    width: 506px;
 }
 
 .ours-features-title {
@@ -277,6 +300,7 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
+    text-align: left;
 }
 
 /* Subscribe */
