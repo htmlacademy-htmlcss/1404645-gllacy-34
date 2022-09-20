@@ -376,6 +376,8 @@ body {
 /* Contacts */
 
 .contacts {
+    display: flex;
+    flex-direction: column;
     background-color: #FCFCFC;
     background-image: url(../images/main/contacts.jpeg);
     background-size: 100% auto;
@@ -383,8 +385,13 @@ body {
     background-position: center;
 }
 
-.contacts-address {
+.contacts-wrapper {
     background-color: #FCFCFC;
+    width: 500px;
+}
+
+.contacts-address {
+
     font-style: normal;
 }
 
