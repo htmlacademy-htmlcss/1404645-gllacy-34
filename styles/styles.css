@@ -43,6 +43,7 @@ body {
 }
 
 .title {
+    margin: 0;
     font-weight: 900;
     font-size: 32px;
     line-height: 46px;
@@ -152,6 +153,7 @@ body {
 }
 
 .slider-text {
+    margin: 0;
     font-size: 18px;
     line-height: 24px;
 }
@@ -200,6 +202,10 @@ body {
     line-height: 30px;
 }
 
+.banner-text {
+    margin: 0;
+}
+
 .banner-link {
     background-color: #FCFCFC;
     color: #2D3440;
@@ -237,11 +243,13 @@ body {
 }
 
 .product-text {
+    margin: 0;
     color: #565C66;
     text-align: center;
 }
 
 .product-price {
+    margin: 0;
     font-size: 20px;
     line-height: 24px;
 }
@@ -271,6 +279,7 @@ body {
 }
 
 .ours-features-text {
+    margin: 0;
     color: #565C66;
 }
 
@@ -293,6 +302,7 @@ body {
 }
 
 .blog-text {
+    margin: 0;
     line-height: 20px;
     color: #565C66;
 }
@@ -323,6 +333,7 @@ body {
 }
 
 .subscribe-text {
+    margin: 0;
     color: #565C66;
 }
 
@@ -365,7 +376,12 @@ body {
 }
 
 .delivery-text {
+    margin: 0;
     color: #565C66;
+}
+
+.delivery-form-data {
+    margin: 0;
 }
 
 .delivery-form-title {
@@ -408,6 +424,7 @@ body {
 }
 
 .contacts-text {
+    margin: 0;
     color: #565C66;
 }
 
