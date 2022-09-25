@@ -164,6 +164,21 @@ body {
     text-decoration: none;
 }
 
+.slider-buttons-list {
+    margin: 0;
+    padding: 0;
+}
+
+.slider-pagination-list {
+    margin: 0;
+    padding: 0;
+}
+
+.slider-social-list {
+    margin: 0;
+    padding: 0;
+}
+
 /* Banners */
 
 .banners-title {
